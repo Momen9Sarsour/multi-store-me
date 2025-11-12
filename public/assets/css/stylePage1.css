@@ -1,0 +1,305 @@
+
+.poster {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+.image-container {
+  text-align: center;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.title1 {
+  width: 180px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.fatn{
+  margin-right: 2px !important;
+}
+.cat1{
+    margin-bottom: 1rem;
+}
+/* Extra 30% off, use the code */
+.text1{
+  margin-left: 185px;
+  margin-bottom: 25px ;
+  margin-top: 30px;
+  color: cornflowerblue;
+}
+.text12{
+  margin-left: 10px;
+  margin-bottom: 25px ;
+  margin-top: 30px;
+  color: cornflowerblue;
+}
+.sectionProduct {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+}
+.section1 {
+  padding-top: 90px;
+  padding-bottom: -10px;
+  position: relative;
+}
+.container-fluid1{
+
+ width: 100%;
+  padding-right: var(--bs-gutter-x, .75rem);
+  padding-left: var(--bs-gutter-x, 2.5rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.row1 {
+  --bs-gutter-x: -10rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+}
+
+.product-container {
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  margin-right: 2px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0;
+  transform: translateY(40%);
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.product-container:hover .product-overlay {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.product-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.store-name {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.item-txt {
+  font-size: 14px;
+}
+
+.product-overlay .review{
+  font-size: 12px;
+}
+
+/* Best seller */
+.sectionBest{
+  margin: 0 185px;
+}
+.review{
+  color: darkgoldenrod;
+  display: flex;
+}
+.review li{
+  margin: 2px;
+}
+.card .card-text{
+  color: royalblue;
+  font-size: 16px;
+}
+.codes{
+  height: 580px;
+  margin-bottom: -250px;
+}
+
+.fad1{
+  font-size: 12px !important;
+  margin: 1px !important;
+}
+.produc{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  /* width: 28.3rem; */
+  width: 100%;
+  height: 190px;
+  /* margin-bottom: 10px; */
+ /* display: flex;*/
+  flex-direction: column;
+  justify-content: center;
+}
+.ads{
+    border: 2px solid;
+}
+.prod h3 , .prod h6 , .prod p , .prod button{
+  margin-left: 30px;
+  padding-top: 10px;
+  color: #fff;
+}
+.review1{
+  color: #FFD700;
+}
+
+.featured-categories-slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-content {
+  display: flex;
+  gap: 10px; /* Adjust the gap between category cards */
+}
+.featured-categories-slider .slider-content {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  margin-left: 72px;
+}
+
+.featured-categories-slider .slider-content .category-card {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+.featured-categories-slider .nav-arrow {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 28px;
+  z-index: 1;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 8px;
+  background-color: transparent;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.featured-categories-slider .nav-arrow:hover {
+  background-color: #0d6efd;
+
+}
+
+.featured-categories-slider .nav-arrow.left {
+  left: 10px;
+  color:#0d6efd;
+}
+
+.featured-categories-slider .nav-arrow.right {
+  right: -0px;
+  color:#0d6efd;
+}
+.featured-categories-slider .nav-arrow.left:hover{
+  color:aliceblue;
+}
+.featured-categories-slider .nav-arrow.right:hover{
+  color:aliceblue;
+}
+.category-card1 {
+  /* flex: 0 0 auto;
+  margin-right: 5px; */
+   margin-left: -55px;
+}
+
+.nav-arrow {
+  font-size: 24px; /* Adjust the font size of the arrows */
+  color: #007bff;
+  cursor: pointer;
+}
+
+
+.single-banner1 .content1 {
+  padding: 130px 40px;
+}
+
+.discount-badge {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 6px 10px;
+  margin-right: 0px; /* Adjust spacing as needed */
+}
+
+
+.compare-price {
+  text-decoration: line-through;
+  color: #888; /* Adjust the color as needed */
+}
+.sectionTopRated {
+  background-color: #f9f9f9;
+  padding:  10px 0;
+}
+
+.sectionTopRated .section-title1 {
+  margin-left: 15px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+.imageRated img {
+  width: 100%;
+  height: 90px;
+}
+
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  color: #FFD700;
+}
+
+.stars i {
+  font-size: 18px;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
